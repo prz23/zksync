@@ -36,7 +36,7 @@ services:
     image: "adria0/tesseracts"
     command: --cfg /tesseracts.toml -vvv
     ports:
-      - "8000:8001"
+      - "8015:8000"
     volumes:
     - ./etc/tesseracts/tesseracts.toml:/tesseracts.toml
     - type: bind
