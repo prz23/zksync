@@ -156,8 +156,8 @@ mod tests {
                 max_number_of_authors_per_batch: 10,
             },
             admin: AdminApi {
-                port: 8080,
-                url: "http://127.0.0.1:8080".into(),
+                port: 8087,
+                url: "http://127.0.0.1:8087".into(),
                 secret_auth: "sample".into(),
             },
             rest: RestApi {
